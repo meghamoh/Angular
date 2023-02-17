@@ -1,0 +1,123 @@
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(247, 187, 56)
+}
+li{
+    float: left;
+}
+li a {
+    display: block;
+    color:blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+li a:hover:not(.active)
+{
+    background-color: #add;
+    
+}
+li a.active
+{
+    color:white;
+    background-color: #04AA6D;
+}
+h1{
+    text-align: center;
+}
+div{
+    width: 300px;
+    height: 100px;
+    border: 1px black;
+    box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #e80939;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #e80939;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #e80939;;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #e80939;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #e80939;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+.container{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN8f2iguCzGXi4gp0oCn9tNRPTNQAx2iqVkQ&usqp=CAU");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-decoration-color: rgb(43, 226, 217);
+}
+    .signup form{
+
+    
+      width:500px;
+      margin:0 auto;
+      padding-top:20px;
+      padding-left: 10px;
+
+    }
+
